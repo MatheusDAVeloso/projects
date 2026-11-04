@@ -1,0 +1,1 @@
+Significa várias formas
