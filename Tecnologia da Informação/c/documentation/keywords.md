@@ -1,0 +1,1 @@
+`continue` — used within loops to skip the rest of the code below and jump to the next iteration.
