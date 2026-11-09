@@ -3,10 +3,7 @@
 #include <dirent.h>
 
 // ANSI color in c
-// bold
-#define BLUE "\e[1;34m"
-
-// reset
+#define BLUE "\e[1;34m" // bold
 #define COLOR_RESET "\e[0m"
 
 void print_file(const char *name, int is_dir, int indent) {
@@ -14,7 +11,7 @@ void print_file(const char *name, int is_dir, int indent) {
 		printf("%*c", indent * 2, ' ');
 
 	if (is_dir)
-		printf("%s%s%s\n", BLUE, name, COLOR_RESET);
+		printf("•📁%s%s%s\n", BLUE, name, COLOR_RESET);
 	else
 		printf("%s\n", name);
 }
