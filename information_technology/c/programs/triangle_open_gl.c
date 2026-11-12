@@ -1,6 +1,3 @@
-// to compile this program, need to execute the following command:
-// gcc open_gl.c -lGL -lGLU -lglut -o test.exe
-
 #include <stdio.h>
 #include <GL/glut.h>
 
