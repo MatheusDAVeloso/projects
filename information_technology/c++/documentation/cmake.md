@@ -1,0 +1,1 @@
+Para fazer um build system de um projeto, é necessário escrever `cmake -B .`

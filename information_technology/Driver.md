@@ -1,0 +1,1 @@
+O software responsável por fornecer uma interface para as operações no hardware a fim de manipular dados se chama driver.

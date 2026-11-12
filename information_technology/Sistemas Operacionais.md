@@ -1,8 +1,6 @@
 Um sistema operacional é um software que atua na comunicação entre o hardware e outras aplicações.
 
-O software responsável por fornecer uma interface para as operações no hardware a fim de manipular dados se chama driver.
-
-O kernel é o núcleo do sistema operacional, responsável por fazer o escalonamento de aplicações, o gerenciamento dos drivers, dentre outras tarefas.
+O kernel é o núcleo do sistema operacional, responsável por fazer o escalonamento de aplicações, o gerenciamento dos [[Driver|drivers]], dentre outras tarefas.
 
 Há vários tipos de Kernel:
 
