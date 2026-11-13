@@ -7,7 +7,6 @@ add_executable(MyProgram)
 target_sources(MyProgram
     PRIVATE
         src/glad.c
-        src/config.h
         src/main.cpp
 )
 
