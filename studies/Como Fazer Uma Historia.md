@@ -1,0 +1,1 @@
+Uma história possui 3 pilares: começo, meio e fim.
