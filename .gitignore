@@ -2,6 +2,3 @@
 .obsidian/
 .vscode/c_cpp_properties.json
 *.exe
-
-# c++
-studies/information_technology/c++/open_gl/build/
