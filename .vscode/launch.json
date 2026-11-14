@@ -35,7 +35,7 @@
             "name": "TS — Random Walker",
             "type": "node",
             "request": "launch",
-            //"preLaunchTask": "tsc: watch - studies/information_technology/typescript/tsconfig.json",
+            "preLaunchTask": "tsc: watch - studies/information_technology/typescript/tsconfig.json",
             "program": "${workspaceFolder}/studies/information_technology/typescript/dist/index.js",
             "skipFiles": [
                 "<node_internals/**>"
