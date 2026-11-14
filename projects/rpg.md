@@ -49,3 +49,51 @@ Os jogadores utilizarão dados para se locomover até determinado lugar. Cada lu
 A se pensar
 
 ---
+
+Caminho Pensado:
+Em todo o momento
+- Pode abrir o inventário
+
+Começa em sua casa
+- Pode ir para fora
+- Pode pegar um arco e 2 flechas ou um facão ou um mapa
+
+Do lado de fora
+- Vê o cartaz do rei
+- Pode ir para a floresta
+- Pode ir ao castelo
+- Pode ir a tenda
+	- Terá uma poção de vida
+	- Terá flechas
+
+No castelo de Calot
+- Fala com o rei para obter mais informações (onde está o dragão)
+
+Na floresta
+- Se falou com o rei, sabe o caminho
+	- 2 rotas -> sempre aleatório a ordem
+- Se não falou com o rei, deverá descobrir o caminho
+	- Pode aparecer um ladrão sem arma
+	- Pode aparecer um lobo pequeno
+	- Pode não aparecer nada
+
+No castelo do dragão negro
+- Adentrar na masmorra
+
+Na masmorra
+- 2 escolhas (sempre aleatória a chance de cada)
+	- 1 tem um dragão e aí é hitkill
+	- O outro caminho é a princesa
+
+Na cela
+- Arrombar a porta e resgatar a princesa
+
+Ao voltar a Masmorra -> Mesmo da masmorra, mas agora será com base noq foi gerado anteriormente — só fazer caminho inverso
+
+Ao voltar a floresta -> Mesmo da floresta, mas agora será com base noq foi gerado anteriormente — só fazer caminho inverso
+
+Na cidade
+- Levar a garota ao Rei
+	- Ganha o jogo
+- Levar a garota a sua casa
+	- Preso pelos guardas por acharem a atitude suspeita

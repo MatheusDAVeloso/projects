@@ -1,0 +1,1 @@
+Você deve pensar nos elementos principais de uma página e entender que coisas mais importantes fica maiores e coisas menos importantes ficam menores.
