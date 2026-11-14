@@ -1,0 +1,1 @@
+Para rodar o programa, digite `npm install` dentro da pasta de `typescript`
