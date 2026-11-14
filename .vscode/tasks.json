@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        // ——————————————————————————————————————————————————
+        // TypeScript
+        // ——————————————————————————————————————————————————
+        "label": "compile-ts-to-js",
+        "command": "cd ${workspaceFolder}/studies/information_technology/typescript && tsc",
+        "args": [],
+        "type": "shell"
+    }]
+}

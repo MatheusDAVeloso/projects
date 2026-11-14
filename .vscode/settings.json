@@ -1,4 +1,7 @@
 {
+    // ——————————————————————————————————————————————————
+    // C++ — CMake
+    // ——————————————————————————————————————————————————
     "cmake.sourceDirectory": "${workspaceFolder}/information_technology/c++/open_gl",
     "cmake.buildDirectory": "${workspaceFolder}/information_technology/c++/open_gl/build"
 }

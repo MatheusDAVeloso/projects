@@ -1,0 +1,14 @@
+{
+  "name": "ramdom_walker",
+  "version": "1.0.0",
+  "description": "A ramdom walker written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MatheusDAVeloso",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

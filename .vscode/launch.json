@@ -1,38 +1,48 @@
 {
-    // ——————————————————————————————————————————————————
-    // DART
-    // ——————————————————————————————————————————————————
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        // ——————————————————————————————————————————————————
+        // FLUTTER
+        // ——————————————————————————————————————————————————
         {
-            "name": "flutter_application",
-            "cwd": "information_technology/flutter/flutter_application",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "flutter_application (profile mode)",
-            "cwd": "information_technology/flutter/flutter_application",
-            "request": "launch",
+            "name": "Flutter — Profile Mode",
             "type": "dart",
+            "cwd": "information_technology/flutter/flutter_application",
+            "request": "launch",
             "flutterMode": "profile"
         },
         {
-            "name": "flutter_application (debug mode)",
+            "name": "Flutter — Debug Mode",
+            "type": "dart",
             "cwd": "information_technology/flutter/flutter_application",
             "request": "launch",
-            "type": "dart",
             "flutterMode": "debug"
         },
         {
-            "name": "flutter_application (release mode)",
+            "name": "Flutter — Release Mode",
+            "type": "dart",
             "cwd": "information_technology/flutter/flutter_application",
             "request": "launch",
-            "type": "dart",
             "flutterMode": "release"
+        },
+        // ——————————————————————————————————————————————————
+        // TypeScript
+        // ——————————————————————————————————————————————————
+        {
+            "name": "TS — Random Walker",
+            "type": "node",
+            "request": "launch",
+            //"preLaunchTask": "compile-ts-to-js",
+            "program": "${workspaceFolder}/studies/information_technology/typescript/dist/index.js",
+            "skipFiles": [
+                "<node_internals/**>"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/**/*.js",
+            ]
         }
     ]
 }
