@@ -95,5 +95,25 @@ Ao voltar a floresta -> Mesmo da floresta, mas agora será com base noq foi gera
 Na cidade
 - Levar a garota ao Rei
 	- Ganha o jogo
+	- Opção de recomeçar
 - Levar a garota a sua casa
 	- Preso pelos guardas por acharem a atitude suspeita
+	- Opção de recomeçar
+
+---
+Tela de início
+- Título
+- Jogar
+- Sair
+
+Se clicar em jogar -> começa o jogo normalmente
+
+---
+Arquitetura:
+
+lib/
+- menus/
+- places/
+
+
+

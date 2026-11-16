@@ -10,21 +10,21 @@
         {
             "name": "Flutter — Profile Mode",
             "type": "dart",
-            "cwd": "information_technology/flutter/flutter_application",
+            "cwd": "studies/information_technology/flutter/flutter_application",
             "request": "launch",
             "flutterMode": "profile"
         },
         {
             "name": "Flutter — Debug Mode",
             "type": "dart",
-            "cwd": "information_technology/flutter/flutter_application",
+            "cwd": "studies/information_technology/flutter/flutter_application",
             "request": "launch",
             "flutterMode": "debug"
         },
         {
             "name": "Flutter — Release Mode",
             "type": "dart",
-            "cwd": "information_technology/flutter/flutter_application",
+            "cwd": "studies/information_technology/flutter/flutter_application",
             "request": "launch",
             "flutterMode": "release"
         },
