@@ -116,4 +116,7 @@ lib/
 - places/
 
 
+visual
+
+\[Título que é o lugar\]
 
