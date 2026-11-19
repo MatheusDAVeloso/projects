@@ -34,7 +34,7 @@ class StartScreen extends StatelessWidget {
                         children: [
                           FilledButton(
                             onPressed: () {
-                              Navigator.pushNamed(context, GameRoutes.testScreen);
+                              Navigator.pushNamed(context, GameRoutes.initialHistory);
                             },
                             child: Text('Jogar'),
                           ),

@@ -1,16 +1,19 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application/utils/utils_string.dart';
 
-class TestScreen extends StatefulWidget {
+class HistoryScreen extends StatefulWidget {
   final String text;
   final String title;
-  const new({super.key, required this.title, required this.text});
+  final VoidCallback onComplete;
+  const new({super.key, required this.title, required this.text, required this.onComplete});
 
   @override
-  State<TestScreen> createState() => _TestScreenState();
+  State<HistoryScreen> createState() => _HistoryScreenState();
 }
 
-class _TestScreenState extends State<TestScreen> {
+class _HistoryScreenState extends State<HistoryScreen> {
   final int caracterSeparator = 540;
   int _currentIndex = 0;
   final List<String> _sections = <String>[];
@@ -35,7 +38,7 @@ class _TestScreenState extends State<TestScreen> {
       // Check if is inside a letter
       int? result = getTheLastSpaceIndex(rawText.substring(0, caracterSeparator));
       if (result == null) {
-        print('ERRO');
+        log('ERRO');
         return;
       }
 
@@ -140,6 +143,11 @@ class _TestScreenState extends State<TestScreen> {
                       Expanded(
                         child: FilledButton(
                           onPressed: () {
+                            if (_currentIndex + 1 == _sections.length) {
+                              widget.onComplete();
+                              return;
+                            }
+
                             setState(() {
                               if (_currentIndex + 1 < _sections.length) {
                                 _currentIndex++;
@@ -152,7 +160,9 @@ class _TestScreenState extends State<TestScreen> {
                     ],
                   ),
                   OutlinedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      widget.onComplete();
+                    },
                     child: Text('Pular >>'),
                   ),
                 ],
