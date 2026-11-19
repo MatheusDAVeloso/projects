@@ -12,29 +12,49 @@ class StartScreen extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                'RPG Medieval',
-              ),
-              FilledButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, GameRoutes.initialHistory);
-                },
-                child: Text('Jogar'),
-              ),
-              FilledButton(
-                onPressed: () {
-                  if (Platform.isAndroid) {
-                    SystemNavigator.pop();
-                  } else if (Platform.isIOS) {
-                    exit(0);
-                  }
-                },
-                child: Text('Sair'),
-              ),
-            ],
+          child: SingleChildScrollView(
+            padding: EdgeInsets.all(16.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                SizedBox(
+                  height: MediaQuery.of(context).size.height * 0.50,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        'RPG MEDIEVAL',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 32.0,
+                        ),
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          FilledButton(
+                            onPressed: () {
+                              Navigator.pushNamed(context, GameRoutes.testScreen);
+                            },
+                            child: Text('Jogar'),
+                          ),
+                          OutlinedButton(
+                            onPressed: () {
+                              if (Platform.isAndroid) {
+                                SystemNavigator.pop();
+                              } else if (Platform.isIOS) {
+                                exit(0);
+                              }
+                            },
+                            child: Text('Sair'),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
