@@ -11,3 +11,5 @@
 - Aceitar esse problema e não lutar contra ou pesquisar sobre — isso reforçaria a ansiedade dentro de você.
 - Dizer a si mesmo que o que está acontecendo não é real, e sim apenas efeito da ansiedade.
 - Técnicas de respiração.
+- Não tomar cafeína
+- Dormir bem
