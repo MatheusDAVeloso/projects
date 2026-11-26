@@ -12,7 +12,7 @@
         // },
         {
             "type": "typescript",
-            "tsconfig": "studies/information_technology/typescript/tsconfig.json",
+            "tsconfig": "projects/typescript/tsconfig.json",
             "option": "watch",
             "problemMatcher": [
                 "$tsc-watch"
@@ -21,7 +21,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "label": "tsc: watch - studies/information_technology/typescript/tsconfig.json"
+            "label": "tsc: watch - projects/typescript/tsconfig.json"
         }
     ]
 }

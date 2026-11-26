@@ -82,8 +82,12 @@ class RandomWalker {
     }
 
     draw() {
+        let red: number = getRandomIntInclusive(0, 255);
+        let green: number = getRandomIntInclusive(0, 255);
+        let blue: number = getRandomIntInclusive(0, 255);
+
         this.context.beginPath();
-        this.context.fillStyle = this.color;
+        this.context.fillStyle = `rgb(${ red.toString() }, ${ green.toString() }, ${ blue.toString() })`;
         this.context.fillRect(this.positionX, this.positionY, this.width, this.height);
     }
 }
