@@ -1,0 +1,9 @@
+No início, os humanos se comunicavam através de pinturas rupestres. Porém, havia uma limitação, só era possível ver as pinturas estando dentro das cavernas. Para suprir essa necessidade, foi-se criado as linguagens humanas.
+
+Contudo, para conversas a longa distância, ainda era muito difícil o fazer, então Samuel Morse criou o telégrafo — um aparelho que permitia comunicar a vários quilômetros. Porém ele não utilizava palavras, apena sinais. Então Samuel criou o código morse.
+
+Posteriormente, foi criado os [[Computador|computadores]], mas no [[História dos Computadores#**Geração 1 — Válvulas**|início, eles eram grandes e pesados]]. Então voltava ao problema da caverna.
+
+Durante a Guerra Fria, foi necessário conectar 4 [[Computador|computadores]] do exército americano espalhados pelo Estados Unidos. A empresa responsável pelo feito seria a ARPANET, que teria auxílio do dinheiro do governo e de universidades. Porém, cada [[Computador|computador]] tinha sua própria linguagem, então para resolver esse desafio, foi-se criado um protocolo de comunicação, o TCP,  que funcionava quebrando as informações em pequenos pacotes, e conferindo todos eles no recebimento. Porém, identificar cada máquina ainda era um problema, então foi criado outro protocolo, o IP. Com o tempo, o governo não queria mais administrar isso, então essa rede de transferência de dados entre [[Computador|computadores]] começou a se chamar Internet, e com o avanço ao longo do país, o protocolo TCP/IP se mostrou bem eficiente e escalável.
+
+Porém, os sites daquela época, ainda era muito difíceis de serem feitos, então Tim Beeners-Lee criou uma linguagem de marcação conhecida como [[HTML]].
